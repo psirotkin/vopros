@@ -20,7 +20,7 @@ module.exports = {
       // }
     },
     webpackBundleAnalyzer: {
-      openAnalyzer: true
+      openAnalyzer: false
     }
   },
   transpileDependencies: [
