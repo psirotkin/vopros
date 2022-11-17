@@ -1,4 +1,10 @@
-# nosik
+# README
+
+if `npm install` fails (Apple Silicon or alike), try:
+``` 
+npm uninstall node-sass
+npm install sass
+```
 
 ## Project setup
 ```
@@ -9,6 +15,7 @@ npm install
 ```
 npm run serve
 ```
+Start page: http://localhost:8081/
 
 ### Compiles and minifies for production
 ```
