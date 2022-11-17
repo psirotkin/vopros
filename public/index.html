@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    
+    <link rel="mask-icon" href="img/icons/safari-pinned-tab.svg" color="#b2f08b">
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b2f08b">
+    <meta name="msapplication-config" content="img/icons/browserconfig.xml">
+    <meta name="theme-color" content="#b2f08b">
+    
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- Matomo -->
+    <!-- <script type="text/javascript">
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://www.psirotkin.net/analytics/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script> -->
+    <!-- End Matomo Code -->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
