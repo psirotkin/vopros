@@ -15,7 +15,7 @@ npm install
 ```
 npm run serve
 ```
-Start page: http://localhost:8081/
+Start page: http://localhost:8080/
 
 ### Compiles and minifies for production
 ```
