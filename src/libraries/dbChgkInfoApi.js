@@ -4,7 +4,7 @@ import { debug } from './tools'
 
 // const baseUrl = 'http://api.baza-voprosov.ru/'
 // const baseUrl = 'https://fast-retreat-18229.herokuapp.com/http://api.baza-voprosov.ru/'
-const baseUrl = 'http://www.db.chgk.info/'
+const baseUrl = 'https://proxy.cors.sh/http://api.baza-voprosov.ru/'
 // const baseUrl = 'https://cors-anywhere.herokuapp.com/http://api.baza-voprosov.ru/'
 const defaultItemsPerRequest = 2
 const defaultStartWithPage = 1
