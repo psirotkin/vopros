@@ -23,6 +23,14 @@
       bordered
       class="col q-ma-sm q-pa-md">
       <h4 class="q-ma-xs">Версии</h4>
+      <h5 class="q-ma-none">1.2.2 (03 декабря 2022)</h5>
+      <div class="q-ma-none">
+        <ul class="q-ma-xs">
+          <li>
+            Исправлено обращение к API базы вопросов. Спасибо Юре.
+          </li>
+        </ul>
+      </div>
       <h5 class="q-ma-none">1.2.1 (17 ноября 2022)</h5>
       <div class="q-ma-none">
         <ul class="q-ma-xs">

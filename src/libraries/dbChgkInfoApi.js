@@ -3,7 +3,8 @@
 import { debug } from './tools'
 
 // const baseUrl = 'http://api.baza-voprosov.ru/'
-const baseUrl = 'https://fast-retreat-18229.herokuapp.com/http://api.baza-voprosov.ru/'
+// const baseUrl = 'https://fast-retreat-18229.herokuapp.com/http://api.baza-voprosov.ru/'
+const baseUrl = 'http://www.db.chgk.info/'
 // const baseUrl = 'https://cors-anywhere.herokuapp.com/http://api.baza-voprosov.ru/'
 const defaultItemsPerRequest = 2
 const defaultStartWithPage = 1
@@ -13,7 +14,7 @@ const defaultPacketId = 'balt20-4_u'
  * @description Get packets from db.chgk.info sorted by descending uptade time
  * @param {Number} [itemsPerRequest={@link defaultItemsPerRequest}] Number of items to be fetched per request
  * @param {Number} [startWithPage={@link defaultStartWithPage}] Page offset (starts with 0)
- * @param {String} [requestURL='http://api.baza-voprosov.ru/'] Base API URL
+ * @param {String} [requestURL='http://www.db.chgk.info/'] Base API URL
  * @returns {Promise} JSON result parsed into an object
  */
 function getRecentPackets (itemsPerRequest = defaultItemsPerRequest, startWithPage = defaultStartWithPage) {
